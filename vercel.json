@@ -1,9 +1,10 @@
 {
     "version": 2,
+    "name": "WebServerUsingDocker",
     "builds": [
         {
             "src": "Dockerfile",
-            "use": "@vercel/docker"
+            "use": "vercel/docker"
         }
     ],
     "routes": [
